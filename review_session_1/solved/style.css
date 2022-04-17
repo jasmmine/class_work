@@ -1,0 +1,80 @@
+body {
+    background-color:#F2EAE1;
+
+}
+
+#container {
+    width:100%;
+    margin:0 auto;
+}
+
+.header_title {
+    font-family: 'Abril Fatface', cursive;
+    font: 24px 'Abril Fatface';
+    color:#2C2D48;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration:none;
+    color:#2c2d48;
+    text-transform: uppercase;
+}
+
+.banner {
+   width:75%;
+   display:flex;
+   margin:auto;
+   justify-content: center;
+    align-items: center;
+
+}
+
+.site_title {
+    width: 50%;
+}
+
+.site_title h1 {
+    font-family: 'Abril Fatface', cursive;
+    font: 62px 'Abril Fatface';
+    color:#2C2D48;
+}
+
+.site_title p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:18px; 
+   
+
+}
+
+video
+{
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.cards {
+    display: grid;
+   
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.card_area {
+    background-color: #EDDFD1;
+    border:1px solid #D1BDAA;
+    border-radius:15px;
+    width:300px;
+    height:439px;
+    display: flex;
+    align-items:center;
+}
+
